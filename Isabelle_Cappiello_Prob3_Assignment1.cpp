@@ -6,7 +6,6 @@ int main() {
     int x;
     int remain;
     int quotient;
-    
     cout << "Enter an integer number to see if the given number is divisible by 4 or not: ";
     cin >> x;
     if(x < 0){
@@ -27,6 +26,5 @@ int main() {
         quotient = int(x/4);
         cout << "Quotient: " << quotient << " and Remainder: " << remain;
     }
-
     return 0;
 }
